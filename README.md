@@ -1,5 +1,4 @@
 # Non-Photorealistic Rendering: Exploring Cel-Shading and Pen-and-Ink Illustration
-================================================================================
 
 This project explores non-photorealistic rendering (NPR) techniques, specifically focusing on implementing cel-shading and pen-and-ink illustration algorithms from scratch.
 
@@ -11,14 +10,14 @@ Implemented Algorithms
 *   Post-render edge detection using Sobel Operator on depth values.
 *   Produces outlines by comparing z-buffer values instead of color.
 
-![Sobel Outline On Utah Teapot](images/output.jpg)
+![Sobel Outline On Utah Teapot](output.jpg)
 
 ### First and Second Order Sobel
 
 *   Distinguishes internal and external edges using first and second-order operators.
 *   Captures abrupt and subtle depth changes within the model.
 
-![Internal and external edges of teapot model](images/edges.png)
+![Internal and external edges of teapot model](edges.png)
 
 ### Sobel with Normalization
 
@@ -30,14 +29,14 @@ Implemented Algorithms
 *   Utilizes luminance-based cross-hatching and stippling for artistic rendering.
 *   Adjusts line frequency based on luminance, enhancing visual aesthetics.
 
-![Progression of pen-and-ink illustration](images/progression.png)
+![Progression of pen-and-ink illustration](progression.png)
 
 ### Cel-Shading
 
 *   Implements cartoon-like shading by refining lighting techniques.
 *   Focuses on ambient lighting and scene illumination for a cel-shaded effect.
 
-![Utah teapot with cel-shading](images/teapot-cel-shading.png)
+![Utah teapot with cel-shading](teapot-cel-shading.png)
 
 References
 ----------
