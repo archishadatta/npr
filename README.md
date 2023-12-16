@@ -1,5 +1,8 @@
 # Non-Photorealistic Rendering: Exploring Cel-Shading and Pen-and-Ink Illustration
 
+![](final.png)
+
+
 This project explores non-photorealistic rendering (NPR) techniques, specifically focusing on implementing cel-shading and pen-and-ink illustration algorithms from scratch.
 
 Implemented Algorithms
